@@ -9,5 +9,9 @@ public class ChildManageApplication {
     newBornBaby.sleep();
     infant.sleep();
     toddler.sleep();
+    
+    newBornBaby.heading();
+    infant.heading();
+    toddler.heading();
   }
 }

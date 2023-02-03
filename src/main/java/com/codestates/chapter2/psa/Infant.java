@@ -21,4 +21,29 @@ public class Infant extends Child {
   protected void eat() {
     System.out.println("영아부터는 이유식을 시작해요. 냠냠");
   }
+  
+  @Override
+  public void see() {
+    System.out.println("영아 무언가를 본다");
+  }
+  
+  @Override
+  public void think() {
+    System.out.println("영아 생각하기 싫다 !");
+  }
+  
+  @Override
+  public void hear() {
+    System.out.println("영아 들리기는 한다 !");
+  }
+  
+  @Override
+  public void talk() {
+    System.out.println("영아 말하기는 한다 !");
+  }
+  
+  @Override
+  public void heading() {
+    System.out.println("영아 걷다가 넘어져서 박는다 !");
+  }
 }

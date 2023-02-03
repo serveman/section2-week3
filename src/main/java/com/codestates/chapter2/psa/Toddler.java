@@ -21,4 +21,29 @@ public class Toddler extends Child {
   protected void eat() {
     System.out.println("유아는 견과류도 먹어요! 으드득 !!");
   }
+  
+  @Override
+  public void see() {
+    System.out.println("유아 잘 본다 !");
+  }
+  
+  @Override
+  public void think() {
+    System.out.println("유아 조금 생각한다 !");
+  }
+  
+  @Override
+  public void hear() {
+    System.out.println("유아 잘 듣는다 !");
+  }
+  
+  @Override
+  public void talk() {
+    System.out.println("유아 발음한다 !");
+  }
+  
+  @Override
+  public void heading() {
+    System.out.println("유아 박치기 잘한다 !");
+  }
 }

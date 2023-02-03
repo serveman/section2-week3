@@ -21,4 +21,29 @@ public class NewBornBaby extends Child {
   protected void eat() {
     System.out.println("신생아는 분유나 모유만 먹어요. 꿀꺽꿀꺽");
   }
+  
+  @Override
+  public void see() {
+    System.out.println("신생아 못본다!");
+  }
+  
+  @Override
+  public void think() {
+    System.out.println("신생아 생각읎다!");
+  }
+  
+  @Override
+  public void hear() {
+    System.out.println("신생아 듣긴 듣는다 !");
+  }
+  
+  @Override
+  public void talk() {
+    System.out.println("신생아 울기밖에 못한다 !");
+  }
+  
+  @Override
+  public void heading() {
+    System.out.println("신생아 목을 못가눈다 !");
+  }
 }
